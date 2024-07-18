@@ -1,2 +1,20 @@
-It was the best day of my life.
-I went to the zoo and saw different types of animals and birds there. I had a lot of fun with my friends and teachers.
+ 1.     git init to create .git folder
+ 2.     ls -a to see folder content.
+ 3.     No chapter1.txt is in working directory(story). To put it in staging area(Files in this area are committed)
+ use 'git status' and then 'git add chapter1'.
+ 4.     git commit -m " initial version-css changes"     -> -m is used to attach a msg to commit command in which what changes in code are done is told.
+ 5.     git log to see the committed versions
+
+ 6.     git restore --staged <filename> -> to restore the committed files into working directory from staging area
+
+
+ 7.     If any changes are made in file, e.g chapter2.txt externally but not committed in git.
+        "git diff"  ->  used to see what changes have been made.
+
+        Now, if we don't want the changes made or want to rollback to the committed changes only, then use:
+        "git checkout chapter2.txt"
+
+8.      Now for adding in external github repositories:
+        1} git remote add origin <github link>
+        2}  git push -u origin main
+
