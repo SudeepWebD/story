@@ -1,3 +1,6 @@
+sssssssssssssssssdffffffffffffffffff
+fffffffffffeeeeeeeeeeeeee 
+ 
  1.     git init to create .git folder
  2.     ls -a to see folder content.
  3.     No chapter1.txt is in working directory(story). To put it in staging area(Files in this area are committed)
@@ -17,4 +20,9 @@
 8.      Now for adding in external github repositories:
         1} git remote add origin <github link>
         2}  git push -u origin main
+
+9. To create branches, use:
+        git branch <branch-name>
+        git branch ->  To check what branches are created
+        git checkout <branch-name>  ->  To enter or switch to any specific branch
 
